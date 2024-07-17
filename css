@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url("assets/images/Netflix-Background.jpg");
+    height: 80vh;
+    background-position: center;
+}
+.alpha{
+    z-index: 15;
+}
+body{
+    background-color: black;
+}
+.box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute; 
+    top: 0;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    max-width: 80vw;
+    justify-content: space-between;
+    height: 60px;
+}
+nav img{
+    z-index: 15;
+}
+nav button{
+    z-index: 15;
+}
+.content{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30vh;
+    position: relative;
+    gap: 20px;
+}
+.content> :first-child{
+    font-weight: 900;
+    font-size: 48px;
+    text-align: center;
+}
+.content> :nth-child(2){
+    font-weight: 700;
+    font-size: 26px;
+    text-align: center;
+}
+.content> :nth-child(3){
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+}
+.border{
+    height: 11px;
+    background-color: rgb(84, 84, 84);
+}
+.btn{
+    padding: 8px;
+    background-color:rgb(23, 23, 23, 0.2);
+    font-weight: bold;
+    gap: 5px;
+    border-radius: 6px; 
+    color: white;
+   
+}
+.btn_red_small{
+    background-color: red;
+    color: white;
+    z-index: 45;
+    border-radius: 6px;
+    border: solid red;
+    cursor: pointer;
+}
+.btn_red_big{
+    background-color: red;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    padding: 15px;
+    padding-right: 100px;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 2px red;
+    cursor: pointer;
+
+   
+}
+.txt{
+    padding: 17px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-right: 160px;
+    background-color: rgb(23, 23, 23, 0.2);
+    text-align: center;
+}
+.frist_section{
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    
+}
+.frist_img{
+    width: 30vw;
+    position: relative;
+    z-index: 30;
+}
+.frist_img video{
+    position: relative;
+    bottom: 385px;
+    left: 87px;
+    max-width: 31vw;
+    text-align: center; 
+}
+.frist_txt >:first-child{
+    font-weight: bolder;
+    font-size: 48px;
+}
+.frist_txt >:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.frist_txt >:nth-child(3){
+    font-size: 24px;
+    font-weight: 400;
+}
+.frist_txt{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40vh;
+    gap: 10px;
+}
+.second_txt{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.second_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 70vw; */
+    text-align: center;
+    height: 80vh;
+}
+.second_img{
+    position: relative;
+    z-index: 10;
+}
+.second_txt >:first-child{
+    font-weight: bolder;
+    font-size: 48px;
+}
+.second_txt >:nth-child(2){
+    font-weight: bolder;
+    font-size: 48px;
+}
+.second_txt >:nth-child(3){
+    font-size: 24px;
+    font-weight: 400;
+}
+.second_txt >:nth-child(4){
+    font-size: 24px;
+    font-weight: 400;
+}
+.third_txt{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 90px;
+}
+.third_section{
+    z-index: 15;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    display: flex;
+    
+}
+.third_txt >:first-child{
+    font-weight: bolder;
+    font-size: 48px;
+}
+.third_txt >:nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.third_txt >:nth-child(3){
+    font-size: 24px;
+    font-weight: 400;
+}
+.third_vedio{
+    position: relative;
+    text-align: center;
+    max-width: 24vw;  
+    right: 520px;
+    bottom: 70px;
+
+}
+.third_img{
+    position: relative;
+    z-index: 20;
+}
+.fourth_section{
+height: 70vh;
+display: flex;
+justify-content: center;
+}
+.fourth_txt{
+    color: white;
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fourth_txt >:first-child{
+    font-weight: bolder;
+    font-size: 48px;
+}
+.fourth_txt> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+}
+.fourth_txt> :nth-child(3){
+    font-size: 24px;
+    font-weight: 400;
+}
+.fourth_txt> :nth-child(4){
+    font-size: 24px;
+    font-weight: 400;
+}
+.fifth_section >:first-child{
+    font-weight: bolder;
+    font-size: 48px;
+    margin-top: 60px;
+    margin-left: 30vw;
+    padding-bottom: 25px;
+    
+}
+.fifth_section{
+    height: 105vh;
+}
+.first_box{
+    color: white;
+    padding: 20px;
+    background-color: rgb(51, 51, 51);
+    justify-content: space-between;
+    max-width: 70vw;
+    margin: 10px auto;
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+}
+.fifth_txt{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 25px;
+    justify-content: center;
+}
+.btn_red_big_2{
+    background-color: red;
+    font-weight: bolder;
+    font-size: large;
+    color: white;
+    padding: 10px;
+    padding-right: 100px;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 2px red;
+    cursor: pointer;
+    margin-top: 35px;
+}
+.txt_last{
+    padding: 17px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-right: 160px;
+    background-color: rgb(23, 23, 23, 0.2);
+    text-align: center;
+    margin-left: 30vw;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.call{
+    color: white;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.sixth_txt_part {
+    color: white;
+}
+.sixth_txt{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin-left: 7vw;
+    justify-content: center;
+    position: relative;
+}
+.footer{
+    color: white;
+    padding: 95px;
+    padding-left: 100px;
+    position: relative;
+}
+
