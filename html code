@@ -1,0 +1,123 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <span style="z-index: 15;"><img src="assets/images/logo.jpg" width="129px"></span>
+            <div>
+                <button class="btn">English</button>
+                <button class="btn btn_red_small">Sign In</button>
+            </div>
+        </nav>
+        <div class="box">
+        </div>
+        <div class="content">
+            <span> Unlimited movies, TV shows and more</span>
+            <span>Watch anywhere. Cancel anytime.</span>
+            <span>Ready to watch? Enter your email to create or restart your membership.</span>
+            <div>
+                <input class="txt" type="text" placeholder="Email address">
+                <button class="btn_red_big">Get Started > </button>
+            </div>
+        </div>
+    </div>
+    <!-- frist content box -->
+    <div class="border"></div>
+    <div class="frist_section">
+        <div class="frist_txt">
+            <span>Enjoy on your TV</span>
+            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast,</span>
+            <span>Apple TV, Blu-ray players and more.</span>
+        </div>
+        <div class="frist_img"><img src="assets/images/tv.png">
+            <video src="assets/vedios/tv_content.mp4" autoplay muted loop></video>
+        </div>
+    </div>
+    <!-- second content box -->
+    <div class="border"></div>
+    <div class="second_section">
+        <div class="second_img"><img src="assets/images/mobile.jpg"></div>
+        <!-- <div class="second_img_part"><img src="assets/images/mobile_boxshot.png" ></div> -->
+        <div class="second_txt">
+            <span>Download your shows to</span>
+            <span>watch offline</span>
+            <span>Save your favourites easily and always have</span>
+            <span>something to watch.</span>
+        </div>
+    </div>
+    <!-- third content box -->
+    <div class="border"></div>
+    <div class="third_section">
+        <div class="third_txt">
+            <span>Watch everywhere</span>
+            <span>Stream unlimited movies and TV shows on your</span>
+            <span>phone, tablet, laptop, and TV.</span>
+        </div>
+        <div class="third_img"><img src="assets/images/mac_pc.png"></div>
+        <div class="third_vedio"><video src="assets/vedios/vedio2.mp4" autoplay muted loop style="width: 26vw;"></video>
+        </div>
+    </div>
+    <!--fourth content box  -->
+    <div class="border"></div>
+    <div class="fourth_section">
+        <div class="fourth_img"><img src="assets/images/kids_content.png"></div>
+        <div class="fourth_txt">
+            <span>Create profiles for kids</span>
+            <span>Send children on adventures with their favourite</span>
+            <span>characters in a space made just for them—free with</span>
+            <span>your membership.</span>
+        </div>
+    </div>
+    <div class="border"></div>
+    <div class="fifth_section">
+        <h1 style="color: white;">Frequently Asked Questions</h1>
+        <div class="boxes">
+            <div class="first_box"><span>What is Netflix? + </span></div>
+            <div class="first_box"><span>How much does Netflix cost? + </span></div>
+            <div class="first_box"><span>Where can I watch? + </span></div>
+            <div class="first_box"> <span>How do I cancel? + </span></div>
+            <div class="first_box"><span>What can I watch on Netflix? + </span></div>
+            <div class="first_box"><span>Is Netflix good for kids? + </span></div>
+        </div>
+        <div class="fifth_txt">Ready to watch? Enter your email to create or restart your membership.</div>
+        <div>
+            <input class="txt_last" type="text" placeholder="Email address">
+            <button class="btn_red_big_2">Get Started > </button>
+        </div>
+    </div>
+    <div class="border"></div>
+    <div class="sixth_section">
+        <div class="call">
+            <span>Questions? call</span>
+            <span><a style="color: white; cursor: pointer;" href=""> 000-800-919-1694</a></span>
+        </div>
+    <div class="sixth_txt">
+        <span><a class="sixth_txt_part" href="">FAQ</a></span>
+        <span><a class="sixth_txt_part" href="">Investor Relation</a></span>
+        <span><a class="sixth_txt_part" href="">Privacy</a></span>
+        <span><a class="sixth_txt_part" href="">Speed Test</a></span>
+        <span><a class="sixth_txt_part" href="">Help Center</a></span>
+        <span><a class="sixth_txt_part" href="">Job</a></span>
+        <span><a class="sixth_txt_part" href="">Cookies preference</a></span>
+        <span><a class="sixth_txt_part" href="">Legal Notice</a></span>
+        <span><a class="sixth_txt_part" href="">Account</a></span>
+        <span><a class="sixth_txt_part" href="">Way to Watch</a></span>
+        <span><a class="sixth_txt_part" href="">Corporate Information</a></span>
+        <span><a class="sixth_txt_part" href="">Only on Netflix</a></span>
+        <span><a class="sixth_txt_part" href="">Media Center</a></span>
+        <span><a class="sixth_txt_part" href="">Term of Use</a></span>
+        <span><a class="sixth_txt_part" href="">Contact Us</a></span>
+    </div>
+    </div>
+    <div class="footer">Netflix India</div>
+</body>
+
+</html>
